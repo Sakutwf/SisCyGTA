@@ -1,0 +1,28 @@
+.nav-bar-container {
+ background-color: black;
+ width: 100%;
+ height: auto;
+ .ceil-navbar {
+  width: 100%;
+  color: white;
+  img {
+   padding-left: 16px;
+   padding-top: 16px;
+   width: 300px;
+   height: auto;
+  }
+  span {
+   &.cursor {
+    cursor: pointer;
+   }
+  }
+ }
+
+ .floor-navbar {
+  width: 80%;
+  button {
+   width: auto;
+   color: whitesmoke;
+  }
+ }
+}
